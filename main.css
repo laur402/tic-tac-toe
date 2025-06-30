@@ -1,0 +1,18 @@
+* {
+    --cell-size: 16rem;
+}
+
+.game-board__game-cell {
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+}
+
+.main__game-board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: var(--cell-size);
+    width: var(--cell-size);
+
+
+}
